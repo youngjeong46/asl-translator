@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/Users/youngjeong/anaconda3/envs/metis/bin/python",
+    "python.formatting.provider": "autopep8"
+}
