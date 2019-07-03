@@ -13,9 +13,7 @@ Using a self-made dataset of 100 images each of 29 gestures (26 English alphabet
 
 ## Application
 
-Using OpenCV, I coded a script in Python that takes live video where a gesture inside a box is recognized and printed on screen for ASL translation into English language.
-
-![script](https://datatostories.s3-us-west-2.amazonaws.com/asl-app-screenshot.png)
+Using OpenCV, I coded a script in Python that takes live video where a gesture inside a box is recognized and printed on screen for ASL translation into English language. You can see the screenshot [here](https://datatostories.s3-us-west-2.amazonaws.com/asl-app-screenshot.png)
 
 The accuracy for VGG16 was at 94% and MobileNet V1 was at 92%. However, MobileNet V1 was about 4-5 times faster than VGG16 and required less than 10% (32MB) of the memory that VGG16 required (454MB). For the application, I chose to go with MobileNet V1 as the architecture.
 
