@@ -26,7 +26,7 @@ MODELS = {
     "mobilenetv2": '../models/mobilenet_v2.h5'
 }
 
-CHARACTER = pickle.load(open("../models/label_map.pickle", "rb"))
+CHARACTER = pickle.load(open("../references/label_map.pickle", "rb"))
 MODEL_NAME = ARGS["model"]
 
 if MODEL_NAME not in MODELS.keys():
