@@ -57,3 +57,5 @@ There are 2900 images total: 100 images per gesture, with a total of 29 gestures
 ## Future Works
 
 I plan on converting the Python script into an iPhone app that achieves the same: translate live gesture into English text. Although it doesn't have an actual video chat capabilities, it will allow for more data collection and increase the model's robustness.
+
+I also want to consider developing an app that lives on AWS Cloud.
